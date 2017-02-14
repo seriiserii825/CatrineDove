@@ -25,16 +25,15 @@ gulp.task('sprite', function() {
 });
 
 
-
 gulp.task('css', function() {
     gulp.src('src/less/style.less') // Выберем наш style.less
         .pipe(sourcemaps.init())
         .pipe(less()) // Скомпилируем
         .pipe(prefixer()) // Добавим вендорные префиксы
-        //.pipe(cssnano({
-          //  zindex: false
-        //}))
-        //.pipe(rename('style.min.css'))
+        .pipe(cssnano({
+            zindex: false
+        }))
+        .pipe(rename('style.min.css'))
         .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest('build/css/'))
         .pipe(browserSync.stream());
@@ -46,6 +45,13 @@ gulp.task('html', function() {
         .pipe(rigger()) // Прогоним через rigger
         .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest('build/'))
+        .pipe(browserSync.stream());
+    // Переместим их в папку build
+});
+
+gulp.task('fonts', function() {
+    gulp.src('src/fonts/**/*.*') // Выберем файлы по нужному пути
+        .pipe(gulp.dest('build/css/fonts'))
         .pipe(browserSync.stream());
     // Переместим их в папку build
 });
@@ -73,12 +79,6 @@ gulp.task('image', function() {
     // Переместим в build
 });
 
-gulp.task('fonts', function() {
-    gulp.src('src/fonts/**/*.*')
-        .pipe(gulp.dest('build/fonts/'));
-    // Переместим шрифты в build
-});
-
 gulp.task('clean', function(cb) {
     rimraf('build/', cb);
 });
@@ -86,16 +86,17 @@ gulp.task('clean', function(cb) {
 gulp.task('build', [
     'html',
     'css',
+    'fonts',
     'js',
     'fonts',
     'sprite',
     'image'
 ]);
 
-gulp.task('browser-sync', ['html', 'css', 'fonts', 'image', 'sprite'], function() {
+gulp.task('browser-sync', ['html', 'css', 'js', 'fonts', 'image', 'sprite','fonts'], function() {
 
     browserSync.init({
-        proxy: "CatrineDove/build",
+        proxy: "catrinedove/build",
         notify: false
     });
 });
@@ -107,9 +108,8 @@ gulp.task('watch', function() {
     gulp.watch('src/fonts/**/*.*', ['fonts']);
     gulp.watch('src/img/**/*.*', ['image']);
     gulp.watch('src/img/icons/*.*', ['sprite']);
+    gulp.watch('src/fonts/**/*.*', ['fonts']);
 });
-
-// gulp.task('default', ['browser-sync', 'watch']);
 
 
 //     // Serve files from the root of this project
