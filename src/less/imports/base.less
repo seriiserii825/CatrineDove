@@ -1,9 +1,76 @@
 
 body{
-  background: #666;
+  .opensans;
+  font-size: @regular;
+  color: @text-color;
+  background: @bg-gray-dark;
 }
 .clearfix::after{
   content: '';
   display: block;
   clear: both;
 }
+.title-light{
+  .benchninelight;
+  font-size: 36px;
+  color: @text-pink;
+}
+/*title
+======================*/
+.title-bold{
+  .benchninebold;
+  font-size: 36px;
+  color: @text-pink;
+}
+.title-regular{
+  .benchnine;
+  font-size: 36px;
+  color: @text-pink;
+}
+.title{
+  padding: 15px 0;
+  text-align: center;
+}
+.border-bottom{
+  position: relative;
+  &::after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    width: 70%;
+    height: 1px;
+    background: @border-white;
+  }
+}
+/*btn
+==========================*/
+.btn-pink{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding-left: 32px;
+  width: 122px;
+  height: 47px;
+  .benchninelight;
+  font-size: 30px;
+  line-height: 47px;
+  color: @text-white;
+  background: @bg-pink-op;
+}
+.btn-gray{
+  .inline-block;
+  padding: 0 28px;
+  height: 47px;
+  line-height: 47px;
+  font-size: @regular;
+  color: @text-black;
+  background: linear-gradient(to bottom, #fdfdfd 10%, #dddddd 50%, #9c9c9c 90%);
+  border-radius: 5px;
+  cursor: pointer;
+  &:hover{
+    background: #ddd;
+  }
+}
+/*todo variable for font-size*/
