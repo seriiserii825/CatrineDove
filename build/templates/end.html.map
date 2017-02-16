@@ -1,1 +1,1 @@
-{"version":3,"names":[],"mappings":"","sources":["templates/end.html"],"sourcesContent":["<script src=\"js/main.js\"></script>\r\n\r\n\r\n\r\n</body>\r\n</html>"],"file":"end.html"}
+{"version":3,"names":[],"mappings":"","sources":["templates/end.html"],"sourcesContent":["<script src=\"/build/js/main.js\"></script>\r\n\r\n\r\n\r\n</body>\r\n</html>"],"file":"end.html"}

@@ -1,5 +1,7 @@
 
 body{
+  margin: 0;
+  padding: 0;
   .opensans;
   font-size: @regular;
   color: @text-color;
@@ -67,10 +69,12 @@ body{
   font-size: @regular;
   color: @text-black;
   background: linear-gradient(to bottom, #fdfdfd 10%, #dddddd 50%, #9c9c9c 90%);
+  border: 1px solid darken(@bg-gray-light, 10%);
+  outline: none;
   border-radius: 5px;
   cursor: pointer;
+  transition: all .5s;
   &:hover{
-    background: #ddd;
+    background: linear-gradient(to bottom, #f7f7f7 10%, #cccccc 50%, #898989 90%);
   }
 }
-/*todo variable for font-size*/

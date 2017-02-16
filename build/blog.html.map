@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["blog.html"],"sourcesContent":["//= templates/head.html\r\n\r\n<title>Blog</title>\r\n\r\n//= templates/title.html\r\n\r\n<!--main-header-->\r\n//= templates/main-header.html\r\n\r\n<!--footer-->\r\n//= templates/footer.html\r\n\r\n//= templates/end.html"],"file":"blog.html"}
