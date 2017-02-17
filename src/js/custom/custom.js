@@ -10,10 +10,22 @@ $(function () {
                 $(this).addClass('active');
             }
         });
-    })
+    });
 
     /*show main menu*/
     $('#js-show-main-menu').on('click', function () {
        $('#js-main-menu').slideToggle(); 
     });
+
+    
+    /*main-slider*/
+    $('#js-main-slider').slick({
+        autoplay: false,
+        autoplaySpeed: 3000,
+        infinite: true,
+        speed: 1200,
+        pauseOnHover: false,
+        pauseOnFocus: false
+    });
+    
 });

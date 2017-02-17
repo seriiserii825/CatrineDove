@@ -63,6 +63,7 @@ body{
 }
 .btn-gray{
   .inline-block;
+  margin-top: 27px;
   padding: 0 28px;
   height: 47px;
   line-height: 47px;
@@ -72,9 +73,14 @@ body{
   border: 1px solid darken(@bg-gray-light, 10%);
   outline: none;
   border-radius: 5px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
   cursor: pointer;
-  transition: all .5s;
+  transition: all 1s;
   &:hover{
+    color: @text-black;
+    text-decoration: none;
     background: linear-gradient(to bottom, #f7f7f7 10%, #cccccc 50%, #898989 90%);
+    border-color: darken(@bg-gray-light, 20%);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   }
 }
