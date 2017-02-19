@@ -2,7 +2,7 @@ $(function () {
     /*choose menu item*/
     $(document).ready(function () {
         var location = window.location.href;
-        var cur_url = '/build/' + location.split('/').pop();
+        var cur_url = '' + location.split('/').pop();
         $('#js-main-menu a').each(function () {
             var link = $(this).attr('href');
             if(cur_url == link){
