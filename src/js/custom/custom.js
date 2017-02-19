@@ -17,7 +17,12 @@ $(function () {
        $('#js-main-menu').slideToggle(); 
     });
 
-    
+    /*fixed-menu*/
+    var mainHeaderHeight = $('#js-main-header').innerHeight();
+    $('.main-content').css({
+        paddingTop: mainHeaderHeight + 'px'
+    });
+
     /*main-slider*/
     $('#js-main-slider').slick({
         autoplay: false,
