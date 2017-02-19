@@ -1,5 +1,9 @@
 //= ../..\bower_components\jquery\dist\jquery.min.js
 
+
+/*https://github.com/galambalazs/smoothscroll-for-websites*/
+//= ../../bower_components\smoothscroll-for-websites\SmoothScroll.js
+
 //= ../../bower_components\jquery-migrate\jquery-migrate.min.js
 
 /* https://github.com/john-terenzio/jQuery-Hover-Delay */
