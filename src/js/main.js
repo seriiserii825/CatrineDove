@@ -1,9 +1,10 @@
-/*jquery*/
-//= ../..\bower_components\jquery\dist\jquery.min.js
-
 /*smooth-scroll*/
 /*https://github.com/galambalazs/smoothscroll-for-websites*/
 //= ../../bower_components\smoothscroll-for-websites\SmoothScroll.js
+
+/*jquery*/
+//= ../..\bower_components\jquery\dist\jquery.min.js
+
 
 /*jquery-migrate*/
 //= ../../bower_components\jquery-migrate\jquery-migrate.min.js
@@ -22,6 +23,8 @@
 
 /*jquery-validate*/
 //= ../../bower_components\jquery-validation\dist\jquery.validate.min.js
+
+
 
 
 /*custom.js*/
