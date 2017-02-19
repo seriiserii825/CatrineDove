@@ -27,5 +27,92 @@ $(function () {
         pauseOnHover: false,
         pauseOnFocus: false
     });
-    
+
+    /*about-gallery*/
+    $('#js-about-gallery').lightGallery({
+        selector: 'a',
+        download: false,
+        getCaptionFromTitleOrAlt: false
+    });
+
+    /*gallery hover link*/
+    $('.js-gallery__link').hover(function () {
+        var current =  $(this).attr('data-caption');
+        var dataIcon = $(this).attr('data-icon');
+
+        $('#' + current).animate({
+            width: 100 + '%'
+        });
+
+        $('#' + dataIcon).animate({
+            top: 45 + '%'
+        });
+
+    }, function () {
+        var current =  $(this).attr('data-caption');
+        var dataIcon = $(this).attr('data-icon');
+
+        $('#' + current).animate({
+            width: 150 + 'px'
+        });
+
+        $('#' + dataIcon).animate({
+            top: '-' + 60 + 'px'
+        });
+    },150);
+
+    /*read-more*/
+    $('.js-read-more').on('click', function (e) {
+        e.preventDefault();
+        var current = $(this).attr('data-read');
+        $('#' + current).fadeToggle(50);
+    })
+
+    /*about-slider*/
+    $('#js-about-slider').slick({
+        slidesToShow: 6,
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 5
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 4
+                }
+            },
+            {
+                breakpoint: 800,
+                settings: {
+                    slidesToShow: 3
+                }
+            },
+            {
+                breakpoint: 570,
+                settings: {
+                    slidesToShow: 2
+                }
+            },
+            {
+                breakpoint: 570,
+                settings: {
+                    slidesToShow: 1,
+                    arrows: false
+                }
+            }
+            // You can unslick at a given breakpoint now by adding:
+            // settings: "unslick"
+            // instead of a settings object
+        ]
+    });
+
+    /*portfolio-gallery*/
+    $('#js-portfolio-gallery').lightGallery({
+        selector: 'a',
+        download: false,
+        getCaptionFromTitleOrAlt: false
+    });
 });
