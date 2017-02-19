@@ -4,7 +4,7 @@ body{
   padding: 0;
   .opensans;
   font-size: @regular;
-  color: @text-color;
+  color: @text-gray-light;
   background: @bg-gray-dark;
 }
 .clearfix::after{
@@ -12,27 +12,33 @@ body{
   display: block;
   clear: both;
 }
-.title-light{
-  .benchninelight;
-  font-size: 36px;
-  color: @text-pink;
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 /*title
 ======================*/
+.title-custom{
+  padding-bottom: 15px;
+  font-size: 36px;
+  text-align: center;
+  color: @text-pink;
+}
+.title-light{
+  .benchninelight;
+}
 .title-bold{
   .benchninebold;
-  font-size: 36px;
-  color: @text-pink;
 }
 .title-regular{
   .benchnine;
-  font-size: 36px;
-  color: @text-pink;
 }
 .title{
   padding: 15px 0;
   text-align: center;
 }
+/*border-bottom*/
 .border-bottom{
   position: relative;
   &::after{
@@ -84,3 +90,42 @@ body{
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   }
 }
+
+/*.caption-pink
+=================*/
+.caption-pink{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 150px;
+  padding: 10px 0;
+  .benchninelight;
+  font-size: 30px;
+  color: @text-white;
+  background: @bg-pink-op;
+  .caption-text{
+    .inline-block;
+    margin-left: 30px;
+  }
+}
+
+/*main
+==========================*/
+.main-content{
+  padding: 70px 0;
+}
+
+a.link-pink{
+  font-size:inherit;
+  color: @text-pink;
+  transition: all .8s;
+  &:hover{
+    color: @text-gray-light;
+  }
+}
+
+.none{
+  display: none;
+}
+
+
