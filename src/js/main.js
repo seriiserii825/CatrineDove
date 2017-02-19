@@ -9,5 +9,8 @@
 
 //= ../../bower_components\lightgallery\dist\js\lightgallery.min.js
 
+//= ../../bower_components\jquery-validation\dist\jquery.validate.min.js
+
+
 
 //= custom/custom.js

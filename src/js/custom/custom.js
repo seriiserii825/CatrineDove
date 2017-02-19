@@ -71,7 +71,7 @@ $(function () {
         e.preventDefault();
         var current = $(this).attr('data-read');
         $('#' + current).fadeToggle(50);
-    })
+    });
 
     /*about-slider*/
     $('#js-about-slider').slick({
@@ -120,4 +120,98 @@ $(function () {
         download: false,
         getCaptionFromTitleOrAlt: false
     });
+
+    /*map*/
+    // When the window has finished loading create our google map below
+    google.maps.event.addDomListener(window, 'load', init);
+
+    function init() {
+        // Basic options for a simple Google Map
+        // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
+        var mapOptions = {
+            // How zoomed in you want the map to start at (always required)
+            zoom: 11,
+            zoomControl: false,
+            scrollwheel: false,
+            scrollControl: false,
+            scaleControl: false,
+            mapMarker: false,
+
+            // The latitude and longitude to center the map (always required)
+            center: new google.maps.LatLng(40.6700, -73.9400), // New York
+
+            // How you would like to style the map. 
+            // This is where you would paste any style found on Snazzy Maps.
+            styles: [{"featureType":"administrative.country","elementType":"all","stylers":[{"invert_lightness":true}]}]
+        };
+
+        // Get the HTML DOM element that will contain your map 
+        // We are using a div with id="map" seen below in the <body>
+        var mapElement = document.getElementById('map');
+
+        // Create the Google Map using our element and options defined above
+        var map = new google.maps.Map(mapElement, mapOptions);
+
+        // Let's also add a marker while we're at it
+        var marker = new google.maps.Marker({
+            position: new google.maps.LatLng(40.6700, -73.9400),
+            map: map,
+            title: 'Snazzy!'
+        });
+
+        /*enable scroll zoom after click on map*/
+        map.addListener('click', function () {
+            map.setOptions({
+                scrollwheel: true
+            });
+        });
+
+        /*disable scroll zoom after mouseout*/
+        map.addListener('mouseout', function () {
+            map.setOptions({
+                scrollwheel: false
+            });
+        });
+
+        /*validation*/
+        $('#js-form, #js-footer-form').validate({
+            rules: {
+                name: {
+                    required: true
+                },
+                email: {
+                    required: true,
+                    email: true
+                },
+                phone: {
+                    required: true,
+                    digits: true
+                }
+            },
+            messages: {
+                name: {
+                    required: 'Это поле обязательно!!!'
+                },
+                email: {
+                    required: 'Это поле обязательно!!!',
+                    email: 'Введите пожалуйста правильный e-mail'
+                },
+                phone: {
+                    required: 'Это поле обязательно!!!',
+                    digits: 'Введите только цифры'
+                }
+            },
+            focusCleanup: true,
+            focusInvalid: false
+        });
+
+        $('#js-footer-form').validate({
+            rules: {
+                footer_email: {
+                    required: true,
+                    email: true
+                }
+            }
+        });
+    }
 });
