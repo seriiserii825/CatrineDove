@@ -13,6 +13,7 @@ $(function () {
         });
     });
 
+
     /*show main menu
     =================================================================*/
     $('#js-show-main-menu').on('click', function () {
