@@ -1,7 +1,7 @@
 $(function () {
     /*choose menu item
      =========================================================*/
-    $(document).ready(function () {
+    /*$(document).ready(function () {
         var location = window.location.href;
         var cur_url = '' + location.split('/').pop();
         $('#js-main-menu a').each(function () {
@@ -11,7 +11,15 @@ $(function () {
                 $(this).addClass('active');
             }
         });
-    });
+    });*/
+
+		$('#js-main-menu a').each(function () {
+				var location = window.location.href;
+				var link = this.href;
+				if(location == link) {
+						$(this).addClass('active');
+				}
+		});
 
 
     /*show main menu

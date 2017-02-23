@@ -2,79 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54818306-7deb-436c-8fa3-cb42006f6a78" name="Default" comment="add smooth">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/css/fonts/lg.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/css/fonts/lg.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/css/fonts/lg.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fonts/lg.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fonts/lg.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fonts/lg.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/video-play.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/vimeo-play.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/youtube-play.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/less/libs/dist/fonts/lg.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/less/libs/dist/fonts/lg.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/less/libs/dist/fonts/lg.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/less/libs/dist/img/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/less/libs/dist/img/video-play.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/less/libs/dist/img/vimeo-play.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/less/libs/dist/img/youtube-play.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/css/fonts/lg.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fonts/lg.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/less/libs/dist/css/lg-fb-comment-box.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/less/libs/dist/css/lg-fb-comment-box.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/less/libs/dist/css/lg-transitions.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/less/libs/dist/css/lg-transitions.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/less/libs/dist/css/lightgallery.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/less/libs/dist/css/lightgallery.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/less/libs/dist/fonts/lg.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/less/libs/dist/js/lightgallery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/less/libs/dist/js/lightgallery.min.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/blog.html.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/contacts.html.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/css/fonts/font-awesome/less/animated.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/css/fonts/font-awesome/less/bordered-pulled.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/css/fonts/font-awesome/less/core.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/css/fonts/font-awesome/less/fixed-width.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/css/fonts/font-awesome/less/font-awesome.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/css/fonts/font-awesome/less/icons.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/css/fonts/font-awesome/less/larger.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/css/fonts/font-awesome/less/list.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/css/fonts/font-awesome/less/mixins.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/css/fonts/font-awesome/less/path.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/css/fonts/font-awesome/less/rotated-flipped.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/css/fonts/font-awesome/less/screen-reader.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/css/fonts/font-awesome/scss/_animated.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/css/fonts/font-awesome/scss/_bordered-pulled.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/css/fonts/font-awesome/scss/_core.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/css/fonts/font-awesome/scss/font-awesome.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/css/style.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/css/style.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/html/about-content.html.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/html/about-gallery.html.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/html/about-slider.html.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/html/main-slider.html.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/icons/1.search-icon.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/index.html.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/js/camera.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/js/camera.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/js/coin-slider.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/js/coin-slider.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/js/jquery.easing.1.3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/js/jquery.easing.1.3.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/js/jquery.mobile.customized.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/js/jquery.mobile.customized.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/js/main.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/portfolio.html.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resume.html.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/templates/end.html.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/templates/footer.html.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/templates/gallery.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/templates/gallery.html.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/templates/head.html.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/templates/main-header.html.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/templates/title.html.map" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/blog.html" afterPath="$PROJECT_DIR$/build/blog.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/contacts.html" afterPath="$PROJECT_DIR$/build/contacts.html" />
@@ -82,12 +9,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/js/main.js" afterPath="$PROJECT_DIR$/build/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/portfolio.html" afterPath="$PROJECT_DIR$/build/portfolio.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/resume.html" afterPath="$PROJECT_DIR$/build/resume.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/templates/head.html" afterPath="$PROJECT_DIR$/build/templates/head.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/templates/main-header.html" afterPath="$PROJECT_DIR$/build/templates/main-header.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/custom/custom.js" afterPath="$PROJECT_DIR$/src/js/custom/custom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/less/style.less" afterPath="$PROJECT_DIR$/src/less/style.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/portfolio.html" afterPath="$PROJECT_DIR$/src/portfolio.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/templates/head.html" afterPath="$PROJECT_DIR$/src/templates/head.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/templates/main-header.html" afterPath="$PROJECT_DIR$/src/templates/main-header.html" />
     </list>
     <ignored path="CatrineDove.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -110,34 +34,24 @@
   <component name="FileEditorManager">
     <splitter split-orientation="horizontal" split-proportion="0.8566694">
       <split-first>
-        <splitter split-orientation="vertical" split-proportion="0.9">
+        <splitter split-orientation="vertical" split-proportion="0.68384403">
           <split-first>
             <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
               <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/src/index.html">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="255">
-                      <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+                    <state relative-caret-position="238">
+                      <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
                       <folding />
                     </state>
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="portfolio.html" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/portfolio.html">
+              <file leaf-file-name="main-header.html" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/src/templates/main-header.html">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="272">
-                      <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="about-gallery.html" pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/src/html/about-gallery.html">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="544">
-                      <caret line="74" column="22" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
+                    <state relative-caret-position="360">
+                      <caret line="35" column="6" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
                       <folding />
                     </state>
                   </provider>
@@ -147,28 +61,27 @@
           </split-first>
           <split-second>
             <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-              <file leaf-file-name="custom.js" pinned="false" current-in-tab="false">
+              <file leaf-file-name="custom.js" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/src/js/custom/custom.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="221">
-                      <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+                    <state relative-caret-position="357">
+                      <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
                       <folding>
-                        <element signature="e#1342#1437#0" expanded="false" />
-                        <element signature="e#1582#1845#0" expanded="false" />
-                        <element signature="e#1998#2039#0" expanded="false" />
-                        <element signature="e#2077#2121#0" expanded="false" />
-                        <element signature="e#2502#3468#0" expanded="false" />
-                        <element signature="e#3804#4073#0" expanded="false" />
-                        <element signature="e#4093#4477#0" expanded="false" />
+                        <element signature="e#1529#1624#0" expanded="false" />
+                        <element signature="e#1769#2032#0" expanded="false" />
+                        <element signature="e#2185#2226#0" expanded="false" />
+                        <element signature="e#2264#2308#0" expanded="false" />
+                        <element signature="e#2689#3655#0" expanded="false" />
+                        <element signature="e#4280#4664#0" expanded="false" />
                       </folding>
                     </state>
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+              <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/src/js/main.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="17">
+                    <state relative-caret-position="340">
                       <caret line="20" column="67" selection-start-line="20" selection-start-column="67" selection-end-line="20" selection-end-column="67" />
                       <folding />
                     </state>
@@ -280,11 +193,9 @@
         <option value="$PROJECT_DIR$/build/index.html" />
         <option value="$PROJECT_DIR$/src/js/main.js" />
         <option value="$PROJECT_DIR$/src/contacts.html" />
-        <option value="$PROJECT_DIR$/src/js/custom/custom.js" />
         <option value="$PROJECT_DIR$/build/main.js" />
         <option value="$PROJECT_DIR$/src/less/libs/lightgallery.min.css" />
         <option value="$PROJECT_DIR$/src/templates/end.html" />
-        <option value="$PROJECT_DIR$/src/templates/main-header.html" />
         <option value="$PROJECT_DIR$/src/less/libs/dist/css/lightgallery.css" />
         <option value="$PROJECT_DIR$/src/templates/head.html" />
         <option value="$PROJECT_DIR$/src/less/style.less" />
@@ -292,6 +203,8 @@
         <option value="$PROJECT_DIR$/src/portfolio.html" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/style.css" />
+        <option value="$PROJECT_DIR$/src/js/custom/custom.js" />
+        <option value="$PROJECT_DIR$/src/templates/main-header.html" />
       </list>
     </option>
   </component>
@@ -447,6 +360,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -533,35 +448,15 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CatrineDove" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CatrineDove" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path" value="C:\Program Files\nodejs\node" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="E:\Server\OpenServer\domains\CatrineDove\node_modules\gulp" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Ego" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
   </component>
   <component name="RecentsManager">
@@ -662,6 +557,10 @@
       <workItem from="1487616304557" duration="6658000" />
       <workItem from="1487625037187" duration="1563000" />
       <workItem from="1487627526879" duration="60000" />
+      <workItem from="1487677254217" duration="648000" />
+      <workItem from="1487720356376" duration="17000" />
+      <workItem from="1487843502854" duration="15000" />
+      <workItem from="1487864566835" duration="209000" />
     </task>
     <task id="LOCAL-00001" summary="established a webside">
       <created>1487115846365</created>
@@ -709,7 +608,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102306000" />
+    <option name="totallyTimeSpent" value="103195000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -722,29 +621,30 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21275072" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286908" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914925" sideWeight="0.5028653" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4011142" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5654596" sideWeight="0.49713466" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22063038" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Get Gist" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286908" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5654596" sideWeight="0.49713466" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32775453" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.013927577" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -904,22 +804,6 @@
     <entry file="file://$PROJECT_DIR$/build/index.html" />
     <entry file="file://$PROJECT_DIR$/build/js/main.js" />
     <entry file="file://$PROJECT_DIR$/build/main.js" />
-    <entry file="file://$PROJECT_DIR$/src/js/custom/custom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-          <folding>
-            <element signature="e#1342#1437#0" expanded="false" />
-            <element signature="e#1582#1845#0" expanded="false" />
-            <element signature="e#1998#2039#0" expanded="false" />
-            <element signature="e#2077#2121#0" expanded="false" />
-            <element signature="e#2502#3468#0" expanded="false" />
-            <element signature="e#3804#4073#0" expanded="false" />
-            <element signature="e#4093#4477#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/contacts.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -948,14 +832,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build/templates/head.html" />
-    <entry file="file://$PROJECT_DIR$/src/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="20" column="67" selection-start-line="20" selection-start-column="67" selection-end-line="20" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/templates/end.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -983,25 +859,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/main-header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bower_components/lightgallery/dist/css/lightgallery.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1036,14 +897,7 @@
     <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/style 2.css" />
     <entry file="file://$PROJECT_DIR$/build/css/style.css" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/style 3.css" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26741">
-          <caret line="1573" column="1" selection-start-line="1573" selection-start-column="1" selection-end-line="1573" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/style.css" />
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="129">
@@ -1060,6 +914,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/about-gallery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="59" column="15" selection-start-line="59" selection-start-column="15" selection-end-line="59" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="67" selection-start-line="20" selection-start-column="67" selection-end-line="20" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/portfolio.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -1068,10 +938,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/about-gallery.html">
+    <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="74" column="22" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
+        <state relative-caret-position="238">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/custom/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+          <folding>
+            <element signature="e#1529#1624#0" expanded="false" />
+            <element signature="e#1769#2032#0" expanded="false" />
+            <element signature="e#2185#2226#0" expanded="false" />
+            <element signature="e#2264#2308#0" expanded="false" />
+            <element signature="e#2689#3655#0" expanded="false" />
+            <element signature="e#4280#4664#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/main-header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="35" column="6" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
           <folding />
         </state>
       </provider>
